@@ -8,17 +8,20 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1868921871864482}
-  m_IsPrefabAsset: 1
---- !u!1 &1868921871864482
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1891958914548676}
+  m_IsPrefabParent: 1
+--- !u!1 &1751032895391884
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
-  - component: {fileID: 4814197085817776}
+  - component: {fileID: 4282007907787322}
+  - component: {fileID: 33375436313914924}
+  - component: {fileID: 23908227998288928}
+  - component: {fileID: 64430660892497484}
   m_Layer: 0
   m_Name: basic-corner
   m_TagString: portal
@@ -26,57 +29,54 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1943320978503794
+--- !u!1 &1891958914548676
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
-  - component: {fileID: 4203679082019192}
-  - component: {fileID: 33723770569612554}
-  - component: {fileID: 23863267865838366}
-  - component: {fileID: 64307142984673066}
+  - component: {fileID: 4835786088023858}
   m_Layer: 0
   m_Name: basic-corner
-  m_TagString: Untagged
+  m_TagString: portal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4203679082019192
+--- !u!4 &4282007907787322
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1943320978503794}
+  m_GameObject: {fileID: 1751032895391884}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 4814197085817776}
+  m_Father: {fileID: 4835786088023858}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4814197085817776
+--- !u!4 &4835786088023858
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1868921871864482}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 41.34, y: 6.61, z: 38.83}
+  m_GameObject: {fileID: 1891958914548676}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 23.33, y: 13.534953, z: 64.77201}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4203679082019192}
+  - {fileID: 4282007907787322}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
---- !u!23 &23863267865838366
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23908227998288928
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1943320978503794}
+  m_GameObject: {fileID: 1751032895391884}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -106,19 +106,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33723770569612554
+--- !u!33 &33375436313914924
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1943320978503794}
+  m_GameObject: {fileID: 1751032895391884}
   m_Mesh: {fileID: 4300000, guid: 63a9cc3d100df834183772ae9ed0a268, type: 3}
---- !u!64 &64307142984673066
+--- !u!64 &64430660892497484
 MeshCollider:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1943320978503794}
+  m_GameObject: {fileID: 1751032895391884}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1

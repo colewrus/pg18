@@ -8,17 +8,20 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1006268244465908}
-  m_IsPrefabAsset: 1
---- !u!1 &1006268244465908
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1838493579734670}
+  m_IsPrefabParent: 1
+--- !u!1 &1817420470822536
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
-  - component: {fileID: 4237389603019282}
+  - component: {fileID: 4688800249541308}
+  - component: {fileID: 33438583811603684}
+  - component: {fileID: 23909246802254716}
+  - component: {fileID: 64932622003276008}
   m_Layer: 0
   m_Name: platform
   m_TagString: portal
@@ -26,57 +29,54 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1987229281148298
+--- !u!1 &1838493579734670
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
-  - component: {fileID: 4979044304359346}
-  - component: {fileID: 33283719451392576}
-  - component: {fileID: 23293845488536916}
-  - component: {fileID: 64212127225774652}
+  - component: {fileID: 4488380159549746}
   m_Layer: 0
   m_Name: platform
-  m_TagString: Untagged
+  m_TagString: portal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4237389603019282
+--- !u!4 &4488380159549746
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1006268244465908}
+  m_GameObject: {fileID: 1838493579734670}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 21.72379, y: 9.90415, z: 61.180218}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4979044304359346}
+  - {fileID: 4688800249541308}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4979044304359346
+--- !u!4 &4688800249541308
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1987229281148298}
+  m_GameObject: {fileID: 1817420470822536}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
-  m_Father: {fileID: 4237389603019282}
+  m_Father: {fileID: 4488380159549746}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23293845488536916
+--- !u!23 &23909246802254716
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1987229281148298}
+  m_GameObject: {fileID: 1817420470822536}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -106,19 +106,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33283719451392576
+--- !u!33 &33438583811603684
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1987229281148298}
+  m_GameObject: {fileID: 1817420470822536}
   m_Mesh: {fileID: 4300000, guid: 601211b299287ed4689249a8900c683d, type: 3}
---- !u!64 &64212127225774652
+--- !u!64 &64932622003276008
 MeshCollider:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1987229281148298}
+  m_GameObject: {fileID: 1817420470822536}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
